@@ -1,5 +1,5 @@
 FROM google/cloud-sdk:263.0.0-alpine
-ENV TERRAFORM_VERSION=0.12.18
+ENV TERRAFORM_VERSION=0.12.23
 WORKDIR /tmp
 RUN apk update && \
     apk add --no-cache bash ca-certificates git openssl unzip wget \
